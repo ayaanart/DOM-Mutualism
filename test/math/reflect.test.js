@@ -1,7 +1,7 @@
-import { test } from "../../testing-tool/test.js";
-import { assertEqual } from "../../testing-tool/assertEqual.js";
-import { assertThrow } from "../../testing-tool/assertThrow.js";
-import { reflect } from "../../math/reflect.js";
+import { test } from "../../DOM-Mutualism/testing-tool/test.js";
+import { assertEqual } from "../../DOM-Mutualism/testing-tool/assertEqual.js";
+import { assertThrow } from "../../DOM-Mutualism/testing-tool/assertThrow.js";
+import { reflect } from "../../DOM-Mutualism/math/reflect.js";
 console.log("Testing reflect()");
 
 // Happy cases ---------------------

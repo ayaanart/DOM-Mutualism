@@ -1,7 +1,7 @@
-import { test } from "../../testing-tool/test.js";
-import { assertEqual } from "../../testing-tool/assertEqual.js";
-import { assertThrow } from "../../testing-tool/assertThrow.js";
-import { adjustSeparation } from "../../math/adjustSeparation.js";
+import { test } from "../../DOM-Mutualism/testing-tool/test.js";
+import { assertEqual } from "../../DOM-Mutualism/testing-tool/assertEqual.js";
+import { assertThrow } from "../../DOM-Mutualism/testing-tool/assertThrow.js";
+import { adjustSeparation } from "../../DOM-Mutualism/math/adjustSeparation.js";
 console.log("Testing adjustSeparation()"); 
 
 // Testing Happy Cases ----------------------------

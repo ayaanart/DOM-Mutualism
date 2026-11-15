@@ -1,7 +1,7 @@
-import { test } from "../../testing-tool/test.js";
-import { assertEqual } from "../../testing-tool/assertEqual.js";
-import { assertThrow } from "../../testing-tool/assertThrow.js";
-import { Canvas } from "../../canvas/Canvas.js";
+import { test } from "../../DOM-Mutualism/testing-tool/test.js";
+import { assertEqual } from "../../DOM-Mutualism/testing-tool/assertEqual.js";
+import { assertThrow } from "../../DOM-Mutualism/testing-tool/assertThrow.js";
+import { Canvas } from "../../DOM-Mutualism/canvas/Canvas.js";
 console.log("Testing Canvas");
 
 // Happy Cases ----------------

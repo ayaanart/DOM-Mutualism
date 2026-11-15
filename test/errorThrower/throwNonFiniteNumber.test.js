@@ -1,6 +1,6 @@
-import { test } from "../../testing-tool/test.js";
-import { assertThrow } from "../../testing-tool/assertThrow.js";
-import { throwNonFiniteNumber } from "../../errorThrower/throwNonFiniteNumber.js";
+import { test } from "../../DOM-Mutualism/testing-tool/test.js";
+import { assertThrow } from "../../DOM-Mutualism/testing-tool/assertThrow.js";
+import { throwNonFiniteNumber } from "../../DOM-Mutualism/errorThrower/throwNonFiniteNumber.js";
 console.log("Testing throwNonFiniteNumber()");
 
 test("TypeError for string", () => {
